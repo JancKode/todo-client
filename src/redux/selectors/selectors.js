@@ -1,4 +1,4 @@
-import { VISIBILITY_FILTERS } from "../../utils/constants";
+import { FILTERS } from "../../utils/constants";
 
 export const getTodosState = store => store.todos;
 
@@ -14,11 +14,11 @@ export const getTodos = store =>
 export const getTodosByVisibilityFilter = (store, visibilityFilter) => {
   const allTodos = getTodos(store);
   switch (visibilityFilter) {
-    case VISIBILITY_FILTERS.COMPLETED:
+    case FILTERS.COMPLETED:
       return allTodos.filter(todo => todo.completed);
-    case VISIBILITY_FILTERS.INCOMPLETE:
+    case FILTERS.INCOMPLETE:
       return allTodos.filter(todo => !todo.completed);
-    case VISIBILITY_FILTERS.ALL:
+    case FILTERS.ALL:
     default:
       return allTodos;
   }

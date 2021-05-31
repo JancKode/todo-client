@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import Button from '../../forms/button/button'
-import FormWrapper from '../../forms/form-wrapper/form-wrapper'
-import TextInput from '../../forms/text-input/text-input'
+import Button from '../../components/forms/button/button'
+import FormWrapper from '../../components/forms/form-wrapper/form-wrapper'
+import TextInput from '../../components/forms/text-input/text-input'
 
 const Login = () => {
   const [email, setEmail] = useState('')
