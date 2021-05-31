@@ -1,0 +1,45 @@
+.form {
+  width: 390px;
+  height: 530px;
+  padding: 35px 30px 63px;
+  border-radius: 8px;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  text-align: initial;
+
+  &-greeting {
+    display: inline-block;
+    width: 100%;
+    font-family: MarkProHeavy;
+    font-size: 22px;
+    color: #1f2a4b;
+    margin-top: 25px;
+  }
+
+  &-description {
+    display: inline-block;
+    margin-top: 6px;
+    font-family: MarkPro;
+    font-size: 16px;
+    color: #a1a4ad;
+  }
+
+  &-loginOption {
+    width: 218px;
+    height: 18px;
+    margin: 22px 112px 52px 0;
+    font-family: MarkPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1f2a4b;
+  }
+
+  &-button {
+    display: flex;
+    justify-content: center;
+  }
+}
